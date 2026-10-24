@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>imjacked.in</title>
+  <meta name="description" content="Something is being built here.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="screen">
+    <header class="boot">
+      <p class="dim">jacked in v1.0</p>
+      <p class="dim">jacked in .......... OK</p>
+      <p class="dim">jacked in ............... OK</p>
+    </header>
+
+    <h1 class="title">imjacked.in</h1>
+
+    <section class="prompt">
+      <p><span class="caret">&gt;</span> im jacked in</p>
+      <p><span class="caret">&gt;</span> im jacked in<span class="cursor" aria-hidden="true"></span></p>
+    </section>
+
+    <footer class="foot">
+      <p class="dim">&copy; <span id="year">2026</span>  wentworth technologies</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
